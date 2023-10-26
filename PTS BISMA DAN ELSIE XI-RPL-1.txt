@@ -1,0 +1,10 @@
+1.SELECT * FROM tb_obat1 WHERE satuan = 'botol';
+2.SELECT * FROM tb_obat1 WHERE jenis = 'Obat keras' OR jenis='Obat terbatas';
+3.SELECT * FROM tb_obat1 WHERE stok <='50';
+4.SELECT * FROM tb_obat1 WHERE satuan != 'tablet';
+5.SELECT * FROM tb_obat1 WHERE jenis = 'Obat bebas' ORDER BY harga_jual ASC;
+6.SELECT * FROM tb_obat1 WHERE satuan = 'botol' ORDER BY harga_beli BETWEEN '10000' AND '100000';
+7.SELECT * FROM tb_obat1 WHERE jenis = 'Obat bebas' AND stok >='5';
+8.SELECT * FROM tb_obat1 WHERE nama_obat LIKE 'B%';
+9.SELECT * FROM tb_obat1 WHERE nama_obat LIKE '%OM%';
+12. SELECT * FROM tb_obat1 WHERE kode_obat ='K003' OR kode_obat='K001' OR kode_obat='K005' OR kode_obat='K007';
